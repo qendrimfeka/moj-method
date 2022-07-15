@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: #e1eedd;
+   
+}
+.container{
+    text-align: center;
+    color: #e1eedd;
+    background: #183a1d;
+    width: 300px;
+}
+dt{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="asset/css/contact.css">
+        <link rel="icon" href="asset/media/moj-logo.jpg">
+    </head>
+    <body>
+        <header>
+            
+            <a href="moj.html"><img id="logo-header" src="asset/media/moj-logo.jpg" height="60px" width="100px"></a>
+            
+           
+            <ul class="nav_links" >
+           <li><a href="ourservices.html">Services</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="about.html">About</a></li>
+            </ul>
+           
+        </header> 
+        <h1>Contact</h1>
+        <div class="row">
+        <div class="form-right">
+        <form action="answer.html" method="post" target="_blank">
+            <label for="fname">First Name</label><br>
+            <input id="fname" type="text" name="fname">
+            <label for="lname">Last Name</label><br>
+            <input id="lname" type="text" name="lname">
+            <label for="email">E-mail</label><br>
+            <input id="email" type="email" name="email">
+            <label for="pwd">Password</label><br>
+            <input id="pwd" type="password" name="password">
+            <label for="message">Comment or Message</label><br>
+            <textarea id="message" name="message" rows="15" cols="35">
+
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+        <div id="map-left">
+           
+        </div>
+        <div>
+         <img src="asset/media/map.jpg">
+            <p id="name"></p>
+            <p id="location"></p>
+            <p id="tel"></p>
+            <br><button onclick="text();">Info</button>
+        </div>    
+    </div>
+    
+    </body>
+    <script>
+        function text() {
+            document.getElementById("name").innerHTML=("Moj Method")
+            document.getElementById("location").innerHTML=("Location: Prishtine, Kosova")
+            document.getElementById("tel").innerHTML=("049700700")
+        }
+        
+    </script>
+</html>
